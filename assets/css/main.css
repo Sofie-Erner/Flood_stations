@@ -1,4 +1,4 @@
-html, body, header, div, h1, h2, h3, h4, h5, h6, p, t {
+html, body, header, div, h1, h2, p {
     margin: 0;
 	padding: 0;
 	border: 0;
@@ -48,4 +48,9 @@ div {
 iframe {
     height: 150%;
     width: 100%;
+}
+
+canvas {
+    width: 100%;
+
 }
