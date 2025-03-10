@@ -1,0 +1,51 @@
+html, body, header, div, h1, h2, h3, h4, h5, h6, p, t {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body {
+	line-height: 1;
+    margin: 2%;
+}
+
+h1, h2{
+    font-weight: 700;
+    text-align: center;
+}
+
+h1 {
+    font-size: 25pt;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+div {
+    text-align: center;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+iframe {
+    height: 150%;
+    width: 100%;
+}
